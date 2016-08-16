@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0591D1AFD2E7458786635AFCF94A3E970EBE6AC3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0591D1AFD2E7458786635AFCF94A3E970EBE6AC3" : 0,
+    "6533726DB9055ACE5273FA9E099F7F94DA696EE2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "82CDCBEE-22B3-4991-B4F4-7BD4A126AE4A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0591D1AFD2E7458786635AFCF94A3E970EBE6AC3" : "receipts",
+    "6533726DB9055ACE5273FA9E099F7F94DA696EE2" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "cameraTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "cameraTest\/cameraTest.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:dchen496\/receipts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0591D1AFD2E7458786635AFCF94A3E970EBE6AC3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaelchen108\/Splitr.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6533726DB9055ACE5273FA9E099F7F94DA696EE2"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+CLANG_CXX_LIBRARY = compiler-default
+CLANG_MODULES_AUTOLINK = YES
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/TesseractOCRiOS/Products"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CMDQueryStringSerialization" "${PODS_ROOT}/Headers/Public/GPUImage" "${PODS_ROOT}/Headers/Public/SSKeychain" "${PODS_ROOT}/Headers/Public/TesseractOCRiOS" "${PODS_ROOT}/Headers/Public/VENCore" "${PODS_ROOT}/Headers/Public/Venmo-iOS-SDK"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/TesseractOCRiOS/TesseractOCR/lib" "$(PODS_ROOT)/TesseractOCRiOS/TesseractOCR/lib"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CMDQueryStringSerialization" -isystem "${PODS_ROOT}/Headers/Public/GPUImage" -isystem "${PODS_ROOT}/Headers/Public/SSKeychain" -isystem "${PODS_ROOT}/Headers/Public/TesseractOCRiOS" -isystem "${PODS_ROOT}/Headers/Public/VENCore" -isystem "${PODS_ROOT}/Headers/Public/Venmo-iOS-SDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -weak_library /usr/lib/libstdc++.6.0.9.dylib -l"Pods-Splitr-CMDQueryStringSerialization" -l"Pods-Splitr-GPUImage" -l"Pods-Splitr-SSKeychain" -l"Pods-Splitr-TesseractOCRiOS" -l"Pods-Splitr-VENCore" -l"Pods-Splitr-Venmo-iOS-SDK" -l"lept" -l"stdc++" -l"tesseract_all" -framework "AVFoundation" -framework "CoreMedia" -framework "Foundation" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "TesseractOCR" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
